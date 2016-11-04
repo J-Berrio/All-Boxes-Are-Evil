@@ -49,6 +49,7 @@
      <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
      <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
      <Compile Include="Assets\_Scripts\MovePlayer.cs" />
+     <Compile Include="Assets\_Scripts\SpawnEnemy.cs" />
      <None Include="Assets\Other Stuff\Fonts\LuckiestGuy\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

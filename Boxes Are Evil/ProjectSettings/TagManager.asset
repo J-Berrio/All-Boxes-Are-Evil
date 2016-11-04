@@ -15,10 +15,10 @@ TagManager:
   - 
   - 
   - Lighting
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Ground
+  - Spawning
   - 
   - 
   - 
