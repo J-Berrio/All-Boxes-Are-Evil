@@ -45,40 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayViewerComplete.cs" />
-     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
-     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
-     <Compile Include="Assets\MovePlayer.cs" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\DepthOfField.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramRender.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\MedianFilter.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\BokehSplatting.shader" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\LensAberrations\Resources\LensAberrations.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayViewerComplete.cs" />
+     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
+     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
+     <Compile Include="Assets\_Scripts\MovePlayer.cs" />
+     <None Include="Assets\Other Stuff\Fonts\LuckiestGuy\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{314E72E8-6C1F-EA77-735B-4F63452B1B00}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
