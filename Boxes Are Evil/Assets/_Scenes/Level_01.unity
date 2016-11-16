@@ -892,7 +892,7 @@ MonoBehaviour:
   - {fileID: 1838439216}
   - {fileID: 918151329}
   - {fileID: 1787763680}
-  spawnFrequency: 0.5
+  spawnFrequency: 0.3
   canSpawnEnemy: 1
 --- !u!4 &1050534078
 Transform:
