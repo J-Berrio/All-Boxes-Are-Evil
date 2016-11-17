@@ -2,30 +2,19 @@
 using System.Collections;
 using System;
 
-public class EnemyDamage : MonoBehaviour
+public class EnemyDamage : MonoBehaviour, IDamage
 {
-    public static Action <EnemyDamage> DamageHealth;
+    public float minusHealth;
     public GameObject player;
 
-    void OnTriggerEnter()
-    {
-        Start();
-    }
-
-    public void Start()
-    {
-        EnemyDamage.DamageHealth += DamageHandler();
-
-        if (DamageHealth != null)
-        {
-            DamageHealth();
-        }
-    }
-
-    public float minusHealth;
-
-    void DamageHandler(EnemyDamage _d)
+    public void Damage()
     {
         StaticVar.maxHealth = StaticVar.maxHealth - minusHealth;
+        print(StaticVar.maxHealth);
+    }
+
+    void OnTriggerEnter(Collider player)
+    {
+        Damage();
     }
 }
