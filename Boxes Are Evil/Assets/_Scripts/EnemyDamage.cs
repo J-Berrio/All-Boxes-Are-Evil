@@ -11,9 +11,15 @@ public class EnemyDamage : MonoBehaviour, IDamage
     {
         StaticVar.maxHealth = StaticVar.maxHealth - minusHealth;
         print(StaticVar.maxHealth);
+       
+        if(StaticVar.maxHealth < 0)
+        {
+            StaticVar.maxHealth = StaticVar.minHealth;
+            print(StaticVar.minHealth);
+        }
     }
 
-    void OnTriggerEnter(Collider player)
+    public void OnTriggerEnter(Collider player)
     {
         Damage();
     }
