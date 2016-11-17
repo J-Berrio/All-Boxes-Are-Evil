@@ -394,6 +394,7 @@ GameObject:
   - 54: {fileID: 735808166}
   - 114: {fileID: 735808167}
   - 114: {fileID: 735808168}
+  - 114: {fileID: 735808169}
   m_Layer: 10
   m_Name: Blue Cube
   m_TagString: Untagged
@@ -437,7 +438,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735808161}
   m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -501,6 +502,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &735808169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735808161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7874468321e96540883c8252c4641da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minusHealth: 25
+  player: {fileID: 0}
 --- !u!1 &740409476
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +678,7 @@ GameObject:
   - 54: {fileID: 957990526}
   - 114: {fileID: 957990527}
   - 114: {fileID: 957990528}
+  - 114: {fileID: 957990529}
   m_Layer: 10
   m_Name: Red Cube
   m_TagString: Untagged
@@ -707,7 +722,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957990521}
   m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -771,6 +786,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &957990529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957990521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7874468321e96540883c8252c4641da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minusHealth: 5
+  player: {fileID: 0}
 --- !u!1001 &981278948
 Prefab:
   m_ObjectHideFlags: 0
@@ -1300,6 +1328,7 @@ GameObject:
   - 54: {fileID: 1787763685}
   - 114: {fileID: 1787763686}
   - 114: {fileID: 1787763687}
+  - 114: {fileID: 1787763688}
   m_Layer: 10
   m_Name: Black Cube
   m_TagString: Untagged
@@ -1343,7 +1372,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1787763680}
   m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1407,6 +1436,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &1787763688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787763680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7874468321e96540883c8252c4641da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minusHealth: 50
+  player: {fileID: 1670732324}
 --- !u!1 &1838301872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,6 +1491,7 @@ GameObject:
   - 54: {fileID: 1838439221}
   - 114: {fileID: 1838439222}
   - 114: {fileID: 1838439223}
+  - 114: {fileID: 1838439224}
   m_Layer: 10
   m_Name: Yellow Cube
   m_TagString: Untagged
@@ -1492,7 +1535,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1838439216}
   m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1556,6 +1599,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &1838439224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838439216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7874468321e96540883c8252c4641da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minusHealth: 10
+  player: {fileID: 0}
 --- !u!1 &1969839434
 GameObject:
   m_ObjectHideFlags: 0

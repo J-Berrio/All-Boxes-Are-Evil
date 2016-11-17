@@ -51,6 +51,7 @@
      <Compile Include="Assets\_Scripts\DamageManager.cs" />
      <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\_Scripts\EnemyDamage.cs" />
+     <Compile Include="Assets\_Scripts\Interfaces.cs" />
      <Compile Include="Assets\_Scripts\MovePlayer.cs" />
      <Compile Include="Assets\_Scripts\RandomRotator.cs" />
      <Compile Include="Assets\_Scripts\SpawnEnemy.cs" />
