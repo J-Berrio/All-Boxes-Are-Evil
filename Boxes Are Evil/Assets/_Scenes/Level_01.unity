@@ -557,6 +557,7 @@ GameObject:
   - 54: {fileID: 918151334}
   - 114: {fileID: 918151335}
   - 114: {fileID: 918151336}
+  - 114: {fileID: 918151337}
   m_Layer: 10
   m_Name: Green Cube
   m_TagString: Untagged
@@ -664,6 +665,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &918151337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918151329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e76cf6ddeef674b9841a601cf3b78c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  giveHealth: 15
+  player: {fileID: 1670732324}
 --- !u!1 &957990521
 GameObject:
   m_ObjectHideFlags: 0
