@@ -52,7 +52,6 @@
      <Compile Include="Assets\_Scripts\DamageManager.cs" />
      <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\_Scripts\EnemyDamage.cs" />
-     <Compile Include="Assets\_Scripts\FreezingScript.cs" />
      <Compile Include="Assets\_Scripts\GiveHealth.cs" />
      <Compile Include="Assets\_Scripts\Interfaces.cs" />
      <Compile Include="Assets\_Scripts\MovePlayer.cs" />
