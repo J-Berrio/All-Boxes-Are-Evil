@@ -12,7 +12,7 @@ public class GuardPatrol : MonoBehaviour
     IEnumerator Patrol()
     {
         yield return new WaitForSeconds(wait);
-        NavMeshAgent guard = GetComponent<NavMeshAgent>();
+        UnityEngine.AI.NavMeshAgent guard = GetComponent<UnityEngine.AI.NavMeshAgent>();
         guard.destination = player.position;
     }
 }
