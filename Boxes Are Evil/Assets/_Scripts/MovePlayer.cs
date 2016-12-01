@@ -40,7 +40,7 @@ public class MovePlayer : MonoBehaviour
     //Good thing i've got plenty
     IEnumerator SpeedBoost()
     {
-       while(boost = true)
+       while(boost == true)
         {
             timer -= Time.deltaTime;
             speed = 15;
