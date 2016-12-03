@@ -7,5 +7,17 @@ public interface IDamage
    void Damage();
 }
 
+public interface IPowerUp
+{
+
+    void PowerUp();
+}
+
+public interface IArmor
+{
+    void Armor();
+}
+
+
 
 
