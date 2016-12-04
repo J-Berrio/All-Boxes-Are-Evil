@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class MovePlayer : MonoBehaviour
     private CharacterController controller;
     public bool boost;
     public float timer = 5;
+
+    public List<int> ages = new List<int>();
 
     void Start()
     {
@@ -21,6 +24,17 @@ public class MovePlayer : MonoBehaviour
 
         Vector3 movement = new Vector3(horizontal, 0f, vertical);
         controller.Move(movement * Time.deltaTime);
+
+        //for my random list
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ages.Add(Random.Range(1, 100));
+        }
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            ages.Remove(ages[Random.Range(0, ages.Count)]);
+        }
     }
 
     void OnTriggerEnter()
@@ -41,6 +55,7 @@ public class MovePlayer : MonoBehaviour
                 speed = 5;
             }
             yield return null;
+            //works now, need to redo code later
         }
     }
 }

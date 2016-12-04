@@ -12,6 +12,10 @@ public class ListStuff : MonoBehaviour
         collectibles.Add(new CollectItems("Seriously Obnoxious Curse", 345));
         collectibles.Add(new CollectItems("Forked Tongue", 75));
 
+        foreach(CollectItems thing in collectibles)
+        {
+            print(thing.itemName + " " + thing.powerAttack);
+        }
     }
 
   
