@@ -80,11 +80,13 @@
     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
     <Compile Include="Assets\_Scripts\CollectItems.cs" />
+    <Compile Include="Assets\_Scripts\DelegateStuff.cs" />
     <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
     <Compile Include="Assets\_Scripts\EnemyDamage.cs" />
     <Compile Include="Assets\_Scripts\FadePlayer.cs" />
     <Compile Include="Assets\_Scripts\GiveHealth.cs" />
     <Compile Include="Assets\_Scripts\GuardPatrol.cs" />
+    <Compile Include="Assets\_Scripts\HandlingDelegates.cs" />
     <Compile Include="Assets\_Scripts\Interfaces.cs" />
     <Compile Include="Assets\_Scripts\ListStuff.cs" />
     <Compile Include="Assets\_Scripts\MovePlayer.cs" />
