@@ -6,12 +6,12 @@ public class CollectItems : MonoBehaviour
 {
     public string itemName;
     public int powerAttack;
-    
 
-    public CollectItems(string newName, int newPowerAttack)
+
+    public CollectItems(string Name, int PowerAttack)
     {
-        itemName = newName;
-        powerAttack = newPowerAttack;
+        itemName = Name;
+        powerAttack = PowerAttack;
     }
 }
 
