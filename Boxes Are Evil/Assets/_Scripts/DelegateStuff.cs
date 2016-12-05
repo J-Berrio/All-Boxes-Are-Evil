@@ -7,6 +7,7 @@ public class DelegateStuff : MonoBehaviour
 {
     public static Func<string> DelegateAction;
     public static Action<string> AnotherDel;
+    public static Action ThirdDel;
 
 
     void OnBecameVisible()
@@ -17,11 +18,19 @@ public class DelegateStuff : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (AnotherDel != null)
         {
             AnotherDel("Hallo hallo, hallo?");
+        }
+    }
+
+    void OnMouseDrag()
+    {
+        if(ThirdDel != null)
+        {
+            ThirdDel();
         }
     }
 } 

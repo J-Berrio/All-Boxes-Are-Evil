@@ -1298,6 +1298,7 @@ MonoBehaviour:
   speed: 5
   boost: 0
   timer: 5
+  ages: 
 --- !u!143 &1670732330
 CharacterController:
   m_ObjectHideFlags: 0

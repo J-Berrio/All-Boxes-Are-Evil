@@ -5,10 +5,13 @@ using System;
 
 public class HandlingDelegates : MonoBehaviour
 {
+    public GameObject player;
+
     void Start()
     {
         DelegateStuff.DelegateAction += DelegateActHandler;
         DelegateStuff.AnotherDel += AnotherDelHandler;
+        DelegateStuff.ThirdDel += ThirdDelHandler;
     }
 
     private string DelegateActHandler()
@@ -20,5 +23,10 @@ public class HandlingDelegates : MonoBehaviour
     private void AnotherDelHandler(string s)
     {
         print(s);
+    }
+
+    public void ThirdDelHandler()
+    {
+        player.transform.position = new Vector3(0,10,0);
     }
 }
