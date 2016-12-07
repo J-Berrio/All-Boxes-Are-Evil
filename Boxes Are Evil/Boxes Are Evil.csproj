@@ -79,6 +79,7 @@
     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayViewerComplete.cs" />
     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
     <Compile Include="Assets\Other Stuff\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
+    <Compile Include="Assets\_Scripts\Carrot.cs" />
     <Compile Include="Assets\_Scripts\CollectItems.cs" />
     <Compile Include="Assets\_Scripts\DelegateStuff.cs" />
     <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
@@ -89,11 +90,13 @@
     <Compile Include="Assets\_Scripts\HandlingDelegates.cs" />
     <Compile Include="Assets\_Scripts\Interfaces.cs" />
     <Compile Include="Assets\_Scripts\ListStuff.cs" />
+    <Compile Include="Assets\_Scripts\MakeSoup.cs" />
     <Compile Include="Assets\_Scripts\MovePlayer.cs" />
     <Compile Include="Assets\_Scripts\RandomRotator.cs" />
     <Compile Include="Assets\_Scripts\ScorePraise.cs" />
     <Compile Include="Assets\_Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\_Scripts\StaticVar.cs" />
+    <Compile Include="Assets\_Scripts\Veggies.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other Stuff\Fonts\LuckiestGuy\LICENSE.txt" />
