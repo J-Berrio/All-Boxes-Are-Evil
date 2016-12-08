@@ -96,6 +96,7 @@
     <Compile Include="Assets\_Scripts\ScorePraise.cs" />
     <Compile Include="Assets\_Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\_Scripts\StaticVar.cs" />
+    <Compile Include="Assets\_Scripts\SwitchOne.cs" />
     <Compile Include="Assets\_Scripts\Veggies.cs" />
   </ItemGroup>
   <ItemGroup>
